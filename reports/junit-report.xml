@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="cors;initiate-a-sct-payment-from-a-client-with-a-cross-domain-origin." tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="@correct" value="true">
+            </property>
+            <property name="URI" value="C:/Users/visserbe/dev/bdd/abn/features/cors.feature">
+            </property>
+        </properties>
+        <testcase name="Given transaction data" classname="cors;initiate-a-sct-payment-from-a-client-with-a-cross-domain-origin." time="0.001639991">
+        </testcase>
+        <testcase name="When the user creates a payment order with cross domain http header and Origin: http://foo.example from a different domain" classname="cors;initiate-a-sct-payment-from-a-client-with-a-cross-domain-origin." time="0.000996311">
+        </testcase>
+        <testcase name="Then a valid response code is returned with code 400: Access-Control-Allow-Origin: http://foo.example" classname="cors;initiate-a-sct-payment-from-a-client-with-a-cross-domain-origin." time="0.000156154">
+        </testcase>
+    </testsuite>
+    <testsuite name="cors;initiate-a-sct-payment-from-a-client-with-a-cross-domain-origin." tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="@correct" value="true">
+            </property>
+            <property name="URI" value="C:/Users/visserbe/dev/bdd/abn/features/cors.feature">
+            </property>
+        </properties>
+        <testcase name="Given transaction data" classname="cors;initiate-a-sct-payment-from-a-client-with-a-cross-domain-origin." time="0.001930306">
+        </testcase>
+        <testcase name="When the user creates a payment order with cross domain http header and Origin: http://foo.example from a different domain" classname="cors;initiate-a-sct-payment-from-a-client-with-a-cross-domain-origin." time="0.003389948">
+        </testcase>
+        <testcase name="Then a valid response code is returned with code 400: Access-Control-Allow-Credentials: true" classname="cors;initiate-a-sct-payment-from-a-client-with-a-cross-domain-origin." time="0.000393319">
+        </testcase>
+    </testsuite>
+    <testsuite name="cors;initiate-a-sct-payment-from-a-client-with-a-cross-domain-origin." tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="@correct" value="true">
+            </property>
+            <property name="URI" value="C:/Users/visserbe/dev/bdd/abn/features/cors.feature">
+            </property>
+        </properties>
+        <testcase name="Given transaction data" classname="cors;initiate-a-sct-payment-from-a-client-with-a-cross-domain-origin." time="0.000745584">
+        </testcase>
+        <testcase name="When the user creates a payment order with cross domain http header and Origin: http://foo.example from a different domain" classname="cors;initiate-a-sct-payment-from-a-client-with-a-cross-domain-origin." time="0.001245571">
+        </testcase>
+        <testcase name="Then a valid response code is returned with code 400: Access-Control-Expose-Headers: FooExample" classname="cors;initiate-a-sct-payment-from-a-client-with-a-cross-domain-origin." time="0.003499917">
+        </testcase>
+    </testsuite>
+    <testsuite name="cors;initiate-a-sct-payment-from-a-client-with-incorrect-cross-domain-origin" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="@incorrect" value="true">
+            </property>
+            <property name="URI" value="C:/Users/visserbe/dev/bdd/abn/features/cors.feature">
+            </property>
+        </properties>
+        <testcase name="Given transaction data" classname="cors;initiate-a-sct-payment-from-a-client-with-incorrect-cross-domain-origin" time="0.000490091">
+        </testcase>
+        <testcase name="When the user creates a payment order with cross domain http header and Origin: http://foo.example from a different domain" classname="cors;initiate-a-sct-payment-from-a-client-with-incorrect-cross-domain-origin" time="0.000903937">
+        </testcase>
+        <testcase name="Then an invalid response code is returned with code 201 : Origin http://foo.example is not allowed" classname="cors;initiate-a-sct-payment-from-a-client-with-incorrect-cross-domain-origin" time="0.000359962">
+        </testcase>
+    </testsuite>
+</testsuites>

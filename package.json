@@ -1,0 +1,15 @@
+{
+  "name": "abn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "//": "Use '-- --tags ~@search' to run all but @search",
+    "test": "node ./node_modules/selenium-cucumber-js/index.js -s step-definitions"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "selenium-cucumber-js": "^1.5.12"
+  }
+}

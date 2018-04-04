@@ -1,0 +1,376 @@
+[
+  {
+    "elements": [
+      {
+        "id": "cors;initiate-a-sct-payment-from-a-client-with-a-cross-domain-origin.",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Initiate a SCT payment from a client with a cross-domain origin.",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "debtorAccountNumber",
+                      "instructedAmount",
+                      "instructedCurrency",
+                      "creditorAccountNumber",
+                      "creditorName",
+                      "executionDate"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "NL64ABNA05286324",
+                      "200.00",
+                      "EUR",
+                      "NL64ABNA0528632445",
+                      "Test user1",
+                      "2018-04-02"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "name": "transaction data",
+            "result": {
+              "status": "passed",
+              "duration": 1639991
+            },
+            "line": 4,
+            "match": {
+              "location": "C:\\Users\\visserbe\\dev\\bdd\\abn\\step-definitions\\steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user creates a payment order with cross domain http header and Origin: http://foo.example from a different domain",
+            "result": {
+              "status": "passed",
+              "duration": 996311
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\visserbe\\dev\\bdd\\abn\\step-definitions\\steps.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "a valid response code is returned with code 400: Access-Control-Allow-Origin: http://foo.example",
+            "result": {
+              "status": "passed",
+              "duration": 156154
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\visserbe\\dev\\bdd\\abn\\step-definitions\\steps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2875442850
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\visserbe\\dev\\bdd\\abn\\node_modules\\selenium-cucumber-js\\runtime\\world.js:236"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@correct",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "cors;initiate-a-sct-payment-from-a-client-with-a-cross-domain-origin.",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Initiate a SCT payment from a client with a cross-domain origin.",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "debtorAccountNumber",
+                      "instructedAmount",
+                      "instructedCurrency",
+                      "creditorAccountNumber",
+                      "creditorName",
+                      "executionDate"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "NL64ABNA05286324",
+                      "200.00",
+                      "EUR",
+                      "NL64ABNA0528632445",
+                      "Test user1",
+                      "2018-04-02"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "name": "transaction data",
+            "result": {
+              "status": "passed",
+              "duration": 1930306
+            },
+            "line": 4,
+            "match": {
+              "location": "C:\\Users\\visserbe\\dev\\bdd\\abn\\step-definitions\\steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user creates a payment order with cross domain http header and Origin: http://foo.example from a different domain",
+            "result": {
+              "status": "passed",
+              "duration": 3389948
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\visserbe\\dev\\bdd\\abn\\step-definitions\\steps.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "a valid response code is returned with code 400: Access-Control-Allow-Credentials: true",
+            "result": {
+              "status": "passed",
+              "duration": 393319
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\visserbe\\dev\\bdd\\abn\\step-definitions\\steps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2352759557
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\visserbe\\dev\\bdd\\abn\\node_modules\\selenium-cucumber-js\\runtime\\world.js:236"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@correct",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "cors;initiate-a-sct-payment-from-a-client-with-a-cross-domain-origin.",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Initiate a SCT payment from a client with a cross-domain origin.",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "debtorAccountNumber",
+                      "instructedAmount",
+                      "instructedCurrency",
+                      "creditorAccountNumber",
+                      "creditorName",
+                      "executionDate"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "NL64ABNA05286324",
+                      "200.00",
+                      "EUR",
+                      "NL64ABNA0528632445",
+                      "Test user1",
+                      "2018-04-02"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "name": "transaction data",
+            "result": {
+              "status": "passed",
+              "duration": 745584
+            },
+            "line": 4,
+            "match": {
+              "location": "C:\\Users\\visserbe\\dev\\bdd\\abn\\step-definitions\\steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user creates a payment order with cross domain http header and Origin: http://foo.example from a different domain",
+            "result": {
+              "status": "passed",
+              "duration": 1245571
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\visserbe\\dev\\bdd\\abn\\step-definitions\\steps.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "a valid response code is returned with code 400: Access-Control-Expose-Headers: FooExample",
+            "result": {
+              "status": "passed",
+              "duration": 3499917
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\visserbe\\dev\\bdd\\abn\\step-definitions\\steps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2352389697
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\visserbe\\dev\\bdd\\abn\\node_modules\\selenium-cucumber-js\\runtime\\world.js:236"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@correct",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "cors;initiate-a-sct-payment-from-a-client-with-incorrect-cross-domain-origin",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Initiate a SCT payment from a client with incorrect cross-domain origin",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "debtorAccountNumber",
+                      "instructedAmount",
+                      "instructedCurrency",
+                      "creditorAccountNumber",
+                      "creditorName",
+                      "executionDate"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "NL64ABNA05286324",
+                      "200.00",
+                      "EUR",
+                      "NL64ABNA0528632445",
+                      "Test user1",
+                      "2018-04-02"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "name": "transaction data",
+            "result": {
+              "status": "passed",
+              "duration": 490091
+            },
+            "line": 4,
+            "match": {
+              "location": "C:\\Users\\visserbe\\dev\\bdd\\abn\\step-definitions\\steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user creates a payment order with cross domain http header and Origin: http://foo.example from a different domain",
+            "result": {
+              "status": "passed",
+              "duration": 903937
+            },
+            "line": 23,
+            "match": {
+              "location": "C:\\Users\\visserbe\\dev\\bdd\\abn\\step-definitions\\steps.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "an invalid response code is returned with code 201 : Origin http://foo.example is not allowed",
+            "result": {
+              "status": "passed",
+              "duration": 359962
+            },
+            "line": 24,
+            "match": {
+              "location": "C:\\Users\\visserbe\\dev\\bdd\\abn\\step-definitions\\steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2372830193
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\visserbe\\dev\\bdd\\abn\\node_modules\\selenium-cucumber-js\\runtime\\world.js:236"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@incorrect",
+            "line": 20
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "cors",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "CORS",
+    "tags": [],
+    "uri": "C:/Users/visserbe/dev/bdd/abn/features/cors.feature"
+  }
+]
